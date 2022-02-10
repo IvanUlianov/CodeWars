@@ -10,15 +10,9 @@ namespace CodeWars
 	{
 		public static bool Lovefunc(int flower1, int flower2)
 		{
-			bool magic = true;
-			bool pF1 = flower1 % 2 == 0,
-				 pF2 = flower2 % 2 == 0;
+			//return flower1 % 2 != flower2 % 2 ;
 
-			if(pF1 && pF2)
-			{
-				magic = false;
-			}
-
+			bool magic = (flower1 - flower2) % 2 != 0;
 			return magic;
 		}
 	}
