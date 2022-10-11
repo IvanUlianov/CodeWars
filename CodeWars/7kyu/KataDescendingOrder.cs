@@ -28,9 +28,6 @@ namespace CodeWars._7kyu
 			}
 
 			return value;
-
-
-			return 0;
 		}
 	}
 }
